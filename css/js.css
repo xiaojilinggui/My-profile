@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.page-main{
+  height: 638px;
+  width: 351px;
+/*  background-color: blue;*/
+}
+.page-footer{
+  height: 27px;
+  width: 879px;
+ /* background-color: red;*/
+}
+h1{
+  text-align: center;
+  margin-top: 45px;
+  font-size: 45px;
+  color: #8ba0e0;
+}
+
+.page-main{
+  margin:0 auto;
+  margin-top: 30px;
+  box-shadow: darkgrey 10px 10px 30px 5px;
+  
+}
+.page-footer{
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.up{
+  background-color: red;
+  height: 424px;
+  width: 351px;
+}
+.text-below{
+  background-color: #777;
+  height: 224px;
+  width: 351px;
+}
+.below{
+  height: 214px;
+  width: 351px;
+}
+.below-nav{
+  height: 126px;
+  background-color: #8ba0e0;
+}
+.below-nav p{
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+
+}
+.img-top{
+  background-color: #333;
+  background-image: url(../images/timg.jpg);
+  background-size: cover;  /*使图片固定，封面*/
+  height: 200px;
+  width: 351px;
+}
+.image img{
+  height: 96px;
+  width: 96px;
+  border:5px solid #fff;
+  border-radius: 50%;
+}
+.image img:hover{
+  transform: scale(1.4);
+}
+.image{
+  position: absolute;
+  top: -44px;
+  left: 20px;
+}
+.name-img{
+  position: relative;
+  padding: 0 1%
+}
+.name-text{
+  float: right;
+  width: 40%
+}
+.name-text h2{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.name-text h3{
+  color: #999;
+  font-size: 20px;
+}
+.name{
+  height: 98px;
+  width: 351px;
+  background-color:#eee;
+}
