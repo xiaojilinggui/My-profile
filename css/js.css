@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .page-main{
   height: 638px;
   width: 351px;
@@ -101,4 +102,19 @@ h1{
   height: 98px;
   width: 351px;
   background-color:#eee;
+}
+.below{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+
+}
+.below-right{
+  padding: 20px;
+ 
+
+}
+.qrcode{
+  height: 80px;
+  width: 80px;
 }
