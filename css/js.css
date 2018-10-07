@@ -3,16 +3,6 @@
   padding: 0;
 }
 
-.page-main{
-  height: 638px;
-  width: 351px;
-/*  background-color: blue;*/
-}
-.page-footer{
-  height: 27px;
-  width: 879px;
- /* background-color: red;*/
-}
 h1{
   text-align: center;
   margin-top: 45px;
@@ -21,44 +11,22 @@ h1{
 }
 
 .page-main{
+  height: 638px;
+  width: 351px;
+}
+
+.page-main{
   margin:0 auto;
   margin-top: 30px;
   box-shadow: darkgrey 10px 10px 30px 5px;
-  
 }
-.page-footer{
-  margin:0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-}
+/*======上半部分开始======*/
 .up{
-  background-color: red;
-  height: 424px;
+  /*background-color: red;*/
+  height: 424px;   /*上半部分宽高*/
   width: 351px;
 }
-.text-below{
-  background-color: #777;
-  height: 224px;
-  width: 351px;
-}
-.below{
-  height: 214px;
-  width: 351px;
-}
-.below-nav{
-  height: 126px;
-  background-color: #8ba0e0;
-}
-.below-nav p{
-  position: relative;
-  top: 10px;
-  padding: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: center;
 
-}
 .img-top{
   background-color: #333;
   background-image: url(../images/timg.jpg);
@@ -66,15 +34,33 @@ h1{
   height: 200px;
   width: 351px;
 }
-.image img{
-  height: 96px;
-  width: 96px;
-  border:5px solid #fff;
-  border-radius: 50%;
+
+/*=====文字介绍部分=====*/
+
+.text-below{
+  background-color: #777;
+  height: 224px;
+  width: 351px;
 }
-.image img:hover{
-  transform: scale(1.4);
+
+.below-profile{
+  height: 126px;
+  background-color: #8ba0e0;
 }
+.below-profile p{
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+/*———————— 结束 ————————*/
+.below{
+  height: 214px;
+  width: 351px;
+}
+
 .image{
   position: absolute;
   top: -44px;
@@ -84,7 +70,19 @@ h1{
   position: relative;
   padding: 0 1%
 }
-.name-text{
+
+.image img{
+  height: 96px;
+  width: 96px;
+  border:5px solid #fff;
+  border-radius: 50%;   /*正方形变圆角*/
+}
+.image img:hover{
+  transform: scale(1.4);  /*头像变大效果*/
+}
+
+/*===== 中部文字说明 =====*/
+.name-text{   
   float: right;
   width: 40%
 }
@@ -103,10 +101,12 @@ h1{
   width: 351px;
   background-color:#eee;
 }
+
+/*====== 二维码定位 ======*/
 .below{
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 
 }
 .below-right{
@@ -117,4 +117,18 @@ h1{
 .qrcode{
   height: 80px;
   width: 80px;
+}
+.nav-dl{
+  float: right;
+}
+.page-footer{
+  height: 27px;
+  width: 879px;
+}
+
+.page-footer{
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
 }
