@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+background-color: #5d707f;
+}
+
+.page-main,.page-footer,.page-header{
+  display: flex;
+  justify-content: center;  
+  padding: 20px;
+}
+.head-text{
+  color: #fff;
+  font-size: 30px;
+  text-shadow:9px 5px 6px #0c0c0ca8;
+}
+.page-footer p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow:9px 5px 6px #0c0c0ca8;
+}
+
+/*--------------分割线------------------*/
+
+.layout-container{
+  height: 638px;
+  width: 351px;
+  background-color: #666;
+  box-shadow: #0c0c0ca8 16px 14px 30px 14px;
+  position: relative;
+
+}
+.userinfo-up{
+  height: 200px;
+  width: 351px;
+  background-color: #FFC0CB;
+  background-image: url(../imegas/sup.jpg);
+  background-size: cover;
+}
+/*--------------分割线------------------*/
+.userinfo-middle{
+  height: 224px;
+  width: 351px;
+  background-color: #FFB90F;
+
+}
+
+.userinfo-middle-up{
+  display: flex;
+  justify-content: flex-end;
+  height: 98px;
+  width: 351px;
+  background-color: #e8292f; 
+}
+.head-portait{
+  height: 96px;
+  width: 96px;
+  border:5px solid #fff ;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  box-shadow: #0c0c0cbd 10px 10px 30px 5px;
+}
+.head-portait:hover{
+  transform: scale(2);
+}
+.middle-up-name{
+  display: flex;
+  font-family: STXinwei;
+  font-size: 20px;
+  flex-direction: column; 
+  align-self: flex-end;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+.middle-up-name h2{
+  display: block;
+}
+.middle-up-name h3{
+  display: block;
+}
+.userinfo-middle-below{
+  height: 126px;
+  width: 351px;
+  background-color: #fbd73b00;
+  text-align: center;
+}
+.userinfo-middle-below-text{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 5px; 
+}
+
+/*--------------分割线------------------*/
+.userinfo-below{
+  display: flex;
+  justify-content: flex-end;
+  height: 214px;
+  width: 351px;
+  background-color: #fff;
+}
+.userinfo-below-imegas{
+  display: flex;
+  align-self: flex-end;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+}
