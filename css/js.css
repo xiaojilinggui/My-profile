@@ -19,7 +19,7 @@ h1{
 }
 /*======上半部分开始======*/
 .up-container{
-  /*background-color: red;*/
+  position: relative;
   height: 424px;   /*上半部分宽高*/
   width: 351px;
 }
@@ -57,11 +57,10 @@ h1{
 
 .image{
   position: absolute;
-  top: -44px;
+  top: 150px;
   left: 20px;
 }
 .userinfo-img{
-  position: relative;
   padding: 0 1%
 }
 
