@@ -5,7 +5,7 @@
 
 h1{
   text-align: center;
-  margin-top: 45px;
+  padding-top: 45px;
   font-size: 45px;
   color: #8ba0e0;
 }
@@ -21,13 +21,13 @@ h1{
   box-shadow: darkgrey 10px 10px 30px 5px;
 }
 /*======上半部分开始======*/
-.up{
+.up-container{
   /*background-color: red;*/
   height: 424px;   /*上半部分宽高*/
   width: 351px;
 }
 
-.img-top{
+.img-top-container{
   background-color: #333;
   background-image: url(../images/timg.jpg);
   background-size: cover;  /*使图片固定，封面*/
@@ -66,7 +66,7 @@ h1{
   top: -44px;
   left: 20px;
 }
-.name-img{
+.userinfo-img{
   position: relative;
   padding: 0 1%
 }
@@ -82,21 +82,21 @@ h1{
 }
 
 /*===== 中部文字说明 =====*/
-.name-text{   
+.userinfo-text{   
   float: right;
   width: 40%
 }
-.name-text h2{
+.userinfo-text h2{
     margin-top: 10px;
     font-size: 30px;
     font-weight: 700;
     text-align: left;
 }
-.name-text h3{
+.userinfo-text h3{
   color: #999;
   font-size: 20px;
 }
-.name{
+.userinfo{
   height: 98px;
   width: 351px;
   background-color:#eee;
