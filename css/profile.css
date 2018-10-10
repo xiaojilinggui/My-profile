@@ -24,7 +24,7 @@ background-color: #5d707f;
   text-shadow:9px 5px 6px #0c0c0ca8;
 }
 
-/*--------------分割线------------------*/
+/*--------------总体设置，头部背景-----------------*/
 
 .layout-container{
   height: 638px;
@@ -36,15 +36,12 @@ background-color: #5d707f;
 }
 .userinfo-up{
   height: 200px;
-  width: 351px;
   background-color: #FFC0CB;
   background-image: url(../imegas/sup.jpg);
   background-size: cover;
 }
-/*--------------分割线------------------*/
+/*--------------主体部分------------------*/
 .userinfo-middle{
-  height: 224px;
-  width: 351px;
   background-color: #FFB90F;
 
 }
@@ -52,8 +49,6 @@ background-color: #5d707f;
 .userinfo-middle-up{
   display: flex;
   justify-content: flex-end;
-  height: 98px;
-  width: 351px;
   background-color: #e8292f; 
 }
 .head-portait{
@@ -77,6 +72,7 @@ background-color: #5d707f;
   align-self: flex-end;
   margin-bottom: 20px;
   margin-right: 20px;
+  padding: 10px;
   color: #fff;
 }
 .middle-up-name h2{
@@ -86,16 +82,17 @@ background-color: #5d707f;
   display: block;
 }
 .userinfo-middle-below{
-  height: 126px;
-  width: 351px;
   background-color: #fbd73b00;
-  text-align: center;
+  text-align: left;
+  line-height: 1.4;
+
 }
 .userinfo-middle-below-text{
   font-size: 18px;
+  font-family: STXinwei;
   font-weight: 400;
   color: #fff;
-  padding: 5px; 
+  padding: 20px; 
 }
 
 /*--------------分割线------------------*/
