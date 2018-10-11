@@ -27,7 +27,6 @@ background-color: #5d707f;
 /*--------------总体设置，头部背景-----------------*/
 
 .layout-container{
-  height: 638px;
   width: 351px;
   background-color: #666;
   box-shadow: #0c0c0ca8 16px 14px 30px 14px;
@@ -99,7 +98,6 @@ background-color: #5d707f;
 .userinfo-below{
   display: flex;
   justify-content: flex-end;
-  height: 214px;
   width: 351px;
   background-color: #fff;
 }
